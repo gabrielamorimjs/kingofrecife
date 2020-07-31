@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Dice1 from "../Components/assets/images/dice/die_face_1.png";
-import Dice2 from "../Components/assets/images/dice/die_face_2.png";
-import Dice3 from "../Components/assets/images/dice/die_face_3.png";
-import Dice4 from "../Components/assets/images/dice/die_face_4.png";
-import Dice5 from "../Components/assets/images/dice/die_face_5.png";
-import Dice6 from "../Components/assets/images/dice/die_face_6.png";
+import Dice1 from "../../Components/assets/images/dice/die_face_1.png";
+import Dice2 from "../../Components/assets/images/dice/die_face_2.png";
+import Dice3 from "../../Components/assets/images/dice/die_face_3.png";
+import Dice4 from "../../Components/assets/images/dice/die_face_4.png";
+import Dice5 from "../../Components/assets/images/dice/die_face_5.png";
+import Dice6 from "../../Components/assets/images/dice/die_face_6.png";
 
 export default class Dice extends Component {
     constructor(props) {
