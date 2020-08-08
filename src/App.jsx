@@ -1,17 +1,16 @@
-import React from "react";
-import "./App.scss";
+import React from 'react';
+import './App.scss';
 
-import Board from "./Components/Board";
-import Dice from "./Models/Dice/Dice";
+import Dice from './Models/Dice/Dice';
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <Board />
-            </header>
-        </div>
-    );
+  return (
+    <div className="App">
+      <div className="App-header">
+        <Dice faceColor="black" rollTime={2} />
+      </div>
+    </div>
+  );
 }
 
 export default App;
